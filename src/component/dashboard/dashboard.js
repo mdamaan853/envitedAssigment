@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import img from "../../assest/images/invited_image.png"
 import "./style.css"
 function Dashborad() {
@@ -13,7 +14,9 @@ function Dashborad() {
         imagine if <br/><span className="snapchat-text">Snapchat<br/></span>had events.<br/>
       <div className="landing-text-2">Easily host and share events with your friends<br/>across any social media.</div>
       </div>
+      <Link to="create">
      <button id="create-event" className="event-btn text-light">🎉 Create my event</button>
+      </Link>
      </section>
     </div>
     </div>
