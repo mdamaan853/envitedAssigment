@@ -1,0 +1,80 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.landing-img{
+    /* border: 2px solid blue; */
+    width: 350px;
+    height: 575.69px;
+    top: 30px;
+    filter: drop-shadow(0px 0px 46.8696px rgba(0, 0, 0, 0.05));
+    border-radius: 35.1522px;
+}
+.img-section{
+/* border:2px solid red; */
+}
+/* 
+@media screen and (max-width: 600px){
+    .parent {
+       flex-direction: column-reverse;  
+     }
+   
+    .item {
+       width: auto;
+       min-height: 200px;
+    }
+   
+    .last {
+     background: #aa0000;
+    }
+} */
+.landing-text-1{
+font-family: Helvetica;
+font-size: 60px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0em;
+text-align: right;
+}
+.landing-text-2{
+    /* width: 500px; */
+    /* height: 56px; */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+}
+.text-section{
+    padding-bottom: 40px;
+    /* border:2px solid red; */
+    display: flex;
+    align-items: center;
+}
+.snapchat-text{
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.event-btn{
+    /* display: flex; */
+/* flex-direction: row; */
+/* justify-content: center; */
+/* align-items: center; */
+/* padding: 16px 30px; */
+/* position: absolute;   */
+position: absolute;
+width: 240px;
+height: 43px;
+left: calc(10% - 240px/2 + 236px);
+/* border: 2px solid red; */
+top: 442px;
+background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+ border-radius: 10px;
+ border:none
+}

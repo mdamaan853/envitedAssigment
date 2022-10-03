@@ -1,0 +1,50 @@
+.logo{
+    width: 400px;
+    height: 400px;
+    border-radius: 220px;
+    border:13px solid #501FC1; 
+}
+
+.form-container{
+    /* border:10px solid #8456EC; */
+}
+
+#form-head-text{
+    color:#501FC1;
+}
+.create-btn{
+background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+ border-radius: 10px;
+ width: 240px;
+height: 43px;
+margin-top: 10px;
+/* left: calc(1 0% - 240px/2 + 236px); */
+/* border: 2px solid red; */
+/* top: 442px;  */
+ border:none
+}
+
+label{
+    color:#E87BF8;
+}
+
+.head-text{
+    /* width: 295px; */
+    /* height: 74px; */
+    /* left: 279px; */
+    /* top: 59px; */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 74px;
+    margin-bottom:50px;
+    /* identical to box height */
+    /* text-align: right; */
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    
+}
